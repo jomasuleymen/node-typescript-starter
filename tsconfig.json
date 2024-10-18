@@ -53,7 +53,8 @@
 
 		/* Paths */
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["src/*"],
+			"@utils/*": ["src/utils/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.js", "test/**/*.ts", "test/**/*.js"],
