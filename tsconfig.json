@@ -42,7 +42,7 @@
 		"allowUnreachableCode": false,
 
 		/* Library Options */
-		"lib": ["DOM", "es2023", "esnext.asynciterable"],
+		"lib": ["DOM", "es2022", "esnext.asynciterable"],
 
 		/* Interop and Compatibility */
 		"allowJs": true,
