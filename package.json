@@ -1,0 +1,37 @@
+{
+	"name": "node-typescript-starter",
+	"version": "1.0.0",
+	"main": "dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/main.js",
+		"start:dev": "ts-node-dev --respawn src/main.ts",
+		"run:dev": "ts-node src/main.ts",
+		"test": "jest",
+		"lint": "eslint .",
+		"prettify": "prettier --write ."
+	},
+	"author": "Unknown author",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"@types/config": "^3.3.5",
+		"@types/jest": "^29.5.13",
+		"@types/lodash": "^4.17.11",
+		"@types/node": "^22.7.6",
+		"@typescript-eslint/eslint-plugin": "^8.10.0",
+		"@typescript-eslint/parser": "^8.10.0",
+		"config": "^3.3.12",
+		"dotenv": "^16.4.5",
+		"eslint": "^9.12.0",
+		"jest": "^29.7.0",
+		"ts-node": "^10.9.2",
+		"ts-node-dev": "^2.0.0",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.6.3"
+	}
+}

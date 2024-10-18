@@ -1,0 +1,64 @@
+{
+	"compilerOptions": {
+		/* Basic Options */
+		"incremental": true,
+		"target": "es2022",
+		"module": "commonjs",
+		"rootDir": "src",
+		"outDir": "dist",
+		"skipLibCheck": true,
+
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"resolveJsonModule": true,
+
+		/* Source Maps and Declarations */
+		"declaration": true,
+		"declarationDir": "./dist/declaration-types",
+		"declarationMap": true,
+		"sourceMap": true,
+		"removeComments": true,
+
+		/* Experimental Features */
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"allowUnreachableCode": false,
+
+		/* Library Options */
+		"lib": ["DOM", "es2023", "esnext.asynciterable"],
+
+		/* Interop and Compatibility */
+		"allowJs": true,
+		"checkJs": false,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Paths */
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.js", "test/**/*.ts", "test/**/*.js"],
+	"exclude": ["node_modules/**", "dist", "build"],
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	}
+}

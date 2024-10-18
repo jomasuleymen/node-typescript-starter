@@ -1,0 +1,31 @@
+# Ignore all node_modules
+node_modules/
+
+# Ignore build output directory
+dist/
+build/
+
+# Ignore configuration files
+*.config.js
+*.config.ts
+
+# Ignore log files
+*.log
+
+# Ignore specific files or folders (customize as needed)
+# Ignoring specific test files or folders
+test/fixtures/
+coverage/
+*.spec.ts
+
+# Ignore specific file types or patterns
+*.min.js
+*.min.css
+*.css.map
+
+# Ignore documentation files or directories
+docs/
+README.md
+package.json
+
+# Ignore any other files or directories as needed
